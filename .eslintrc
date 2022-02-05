@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "vue/setup-compiler-macros": true
+  },
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "eslint:recommended",
+    "@vue/typescript/recommended",
+    "plugin:tailwindcss/recommended",
+    "@vue/prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "no-console": "warn",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  }
+}
